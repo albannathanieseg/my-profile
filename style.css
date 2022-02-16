@@ -1,0 +1,116 @@
+body {
+	background-color: #f2f2f2;
+	color: rgb(30, 30, 30);
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 17px;
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3 {
+	color: #1E2D2F;
+}
+h1 {
+	font-size: 32px;
+	color: #141B41;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 400;
+
+}
+h3 {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #21295C;	
+	font-weight: 600;
+	font-size: 14px;
+}
+
+a:hover {
+	color: #1C7293;
+}
+
+
+.card {
+	background:  white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1);
+	margin: 20px 0px;
+	text-align: center;
+} 
+
+#page {
+	width:  80%;
+	margin:  0 auto;
+}
+	
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #21295C;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #1C7293;
+	color: white;
+}
+
+
+ul {
+	padding-left: 0px;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+i {
+	font-size: 65px;
+	margin: 15px;
+	color: rgb(230, 230, 230);
+}
+
+i:hover {
+	color: #1C7293;
+}
+
+#intro {
+	margin-bottom: 50px;
+}
+
+
+@media (max-width: 960px) {
+	.page {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+	.page {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+	.page {
+    width: 300px;
+  }
+}
+
+
+
